@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/normalize.css">
     <link rel="stylesheet" href="/style.css">
     <title>Smoothie Webpage</title>
 </head>
@@ -254,46 +255,102 @@
         </div>
     </section>
 
-    <footer>
-        <a href="#"><img src="/assets/images/logo.png" alt=""></a>
-        <div>
-            <h4>information</h4>
-            <ul>
-                <li>Search </li>
-                <li>Contact us </li>
-                <li>Terms & Conditions</li>
-                <li>Privacy Policy</li>
+    <footer class="footer">
+
+        <div class="footer__logo logo">
+            <a class="logo__link" class="" class="" href="">
+                <img class="logo__img" src="/assets/images/Logo.png" alt="">
+            </a>
+        </div>
+        <div class="footer__info info">
+            <h4 class="info__subtitel">information</h4>
+            <ul class="info__list">
+                <li class="info__item">Search </li>
+                <li class="info__item">Contact us </li>
+                <li class="info__item">Terms & Conditions</li>
+                <li class="info__item">Privacy Policy</li>
             </ul>
         </div>
 
-        <div>
-            <h4>Payment</h4>
-            <div><img src="/assets/images/amex.png" alt=""></div>
-            <div><img src="/assets/images/apple-pay.png" alt=""></div>
-            <div><img src="/assets/images/maestro.png" alt=""></div>
-            <div><img src="/assets/images/discover.png" alt=""></div>
-            <div><img src="/assets/images/jbc.png" alt=""></div>
-            <div><img src="/assets/images/mastercard.png" alt=""></div>
-            <div><img src="/assets/images/paypal.png" alt=""></div>
-            <div><img src="/assets/images/shopify Pay.png" alt=""></div>
-            <div><img src="/assets/images/visa.png" alt=""></div>
+        <div class="footer__payment">
+            <h4 class="footer__subtitel">Payment</h4>
+
+            <div class="footer__inner">
+                <img class="footer__img" src="/assets/images/amex.png" alt="">
+            </div>
+
+            <div class="footer__inner">
+                <img class="footer__img" src="/assets/images/apple-pay.png" alt="">
+            </div>
+
+            <div class="footer__inner">
+                <img class="footer__img" src="/assets/images/maestro.png" alt="">
+            </div>
+
+            <div class="footer__inner">
+                <img class="footer__img" src="/assets/images/discover.png" alt="">
+            </div>
+
+            <div class="footer__inner">
+                <img class="footer__img" src="/assets/images/jbc.png" alt="">
+            </div>
+
+            <div class="footer__inner">
+                <img class="footer__img" src="/assets/images/mastercard.png" alt="">
+            </div>
+
+            <div class="footer__inner">
+                <img class="footer__img" src="/assets/images/paypal.png" alt="">
+            </div>
+
+            <div class="footer__inner">
+                <img class="footer__img" src="/assets/images/shopify Pay.png" alt="">
+            </div>
+
+            <div class="footer__inner">
+                <img class="footer__img" src="/assets/images/visa.png" alt="">
+            </div>
         </div>
 
-        <div>
-            <h4>Don't miss out!</h4>
-            <form action="">
-                <input type="text" size="" value="Subscribe to our newsletter">
+        <div class="footer__feedback">
+            <h4 class="footer__subtitel">Don't miss out!</h4>
+            <form class="footer__form" action="">
+                <input class="footer__newsletter" type="text" size="" value="Subscribe to our newsletter">
             </form>
-            <h4>FOLLOW US</h4>
-            <ul>
-                <li href=""><img src="" alt=""></li>
-                <li href=""><img src="" alt=""></li>
-                <li href=""><img src="" alt=""></li>
-            </ul>
+            <h4 class="footer__subtitel subtitel--brown">FOLLOW US</h4>
+
+            <div class="footer__social">
+
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a class="footer__link" href="">
+                            <img class="footer__img" src="" alt="">
+                        </a>
+                    </li>
+
+                    <li class="footer__list-item">
+                        <a class="footer__link" href="">
+                            <img class="footer__img" src="" alt="">
+                        </a>
+                    </li>
+
+                    <li class="footer__item">
+                        <a class="footer__link" href="">
+                            <img class="footer__img" src="" alt="">
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
         </div>
-        
-        <span><small>&copy 2020. All Rights Reserved.</small></span>
-        <button>Go Top</button>
+
+        <div class="footer__copyright">
+            <span class="footer__span">&copy 2020. All Rights Reserved.</span>
+        </div>
+
+        <div class="footer__button">
+            <button class="footer__btn btn">Go Top</button>
+        </div>
     </footer>
 </body>
 

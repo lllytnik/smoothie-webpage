@@ -1,3 +1,207 @@
-body{
+body {
     background-color: lightcoral;
 }
+
+.header {}
+
+.header__top {}
+
+.header__nav.nav {}
+
+.header__logo.logo {}
+
+.header_btn.btn.btn--green {}
+
+.logo__link {}
+
+.logo__img {}
+
+.nav__list {}
+
+.nav__item {}
+
+.nav__link {}
+
+.header__personal.personal {}
+
+.personal_list {}
+
+.personal_list-item {}
+
+.personal_list-link {}
+
+.personal__list-img {}
+
+.header__social.social {}
+
+.social__list {}
+
+.social__list-item {}
+
+.social__list-link {}
+
+.social__list-img {}
+
+
+
+
+.smoothie {}
+
+.smoothie__titel.title {}
+
+.smoothie_text {}
+
+.smoothie__inner {}
+
+.smoothie__features {}
+
+.smoothie__img {}
+
+.smoothie__subtitel {}
+
+
+.about {}
+
+.about__img. {}
+
+.about__structure {}
+
+.about__titel.title {}
+
+.about__list {}
+
+.about__item {}
+
+.about_btn.btn.btn--orange-border {}
+
+
+.products {}
+
+.products__column.products__column--chocolate {}
+
+.products__img {}
+
+.products__subtitel {}
+
+.products__item {}
+
+.products__btn.btn {}
+
+.products__column.products__column--vegan {}
+
+.products__column.products__column--lemon {}
+
+.products__column.products__column--turmeric {}
+
+
+.story {}
+
+.story__wrapper {}
+
+.story__titel.titel {}
+
+.story__text.text {}
+
+.story__btn.btn {}
+
+.story__picture {}
+
+.story__img {}
+
+
+.reviews {}
+
+.reviews__titel {}
+
+.reviews__wrapper {}
+
+.reviews__desc {}
+
+.reviews__copy {}
+
+.reviews__userpic {}
+
+.reviews__img {}
+
+.reviews__btn.btn.btn-left {}
+
+.reviews__btn.btn.btn-right {}
+
+
+.blog {}
+
+.blog__wrapper {}
+
+.blog__titel.titel {}
+
+.blog__img {}
+
+.blog__excerpt {}
+
+.blog__subtitel {}
+
+.blog__meta {}
+
+.blog__text.text {}
+
+.blog__link {}
+
+
+.instagram {}
+
+.instagram__titel.titel {}
+
+.instagram__titel-img {}
+
+.instagram__container {}
+
+.instagram__inner {}
+
+.instagram__img {}
+
+
+.footer {}
+
+.footer__logo.logo {}
+
+.footer__info.info {}
+
+.info__subtitel {}
+
+.info__list {}
+
+.info__item {}
+
+.footer__payment {}
+
+.footer__subtitel {}
+
+.footer__inner {}
+
+.footer__img {}
+
+.footer__feedback {}
+
+.footer__form {}
+
+.footer__newsletter {}
+
+.footer__subtitel.subtitel--brown {}
+
+.footer__social {}
+
+.footer__list {}
+
+.footer__item {}
+
+.footer__link {}
+
+.footer__list-item {}
+
+.footer__copyright {}
+
+.footer__span {}
+
+.footer__button {}
+
+.footer__btn.btn {}
