@@ -1,6 +1,7 @@
 body {
     background-color: lightcoral;
 }
+.container {}
 
 .header {}
 
@@ -8,42 +9,39 @@ body {
 
 .header__nav.nav {}
 
-.header__logo.logo {}
-
-.header_btn.btn.btn--green {}
-
-.logo__link {}
-
-.logo__img {}
-
 .nav__list {}
 
 .nav__item {}
 
 .nav__link {}
 
+.header__logo.logo {}
+
+.logo__link {}
+
+.logo__img {}
+
 .header__personal.personal {}
 
-.personal_list {}
+.personal__list {}
 
-.personal_list-item {}
+.personal__item {}
 
-.personal_list-link {}
+.personal__link {}
 
-.personal__list-img {}
+.personal__img {}
 
 .header__social.social {}
 
 .social__list {}
 
-.social__list-item {}
+.social__item {}
 
-.social__list-link {}
+.social__link {}
 
-.social__list-img {}
+.social__img {}
 
-
-
+.header_btn.btn.btn--green {}
 
 .smoothie {}
 
@@ -51,14 +49,13 @@ body {
 
 .smoothie_text {}
 
-.smoothie__inner {}
+.smoothie__wrapper {}
 
 .smoothie__features {}
 
 .smoothie__img {}
 
 .smoothie__subtitel {}
-
 
 .about {}
 
@@ -73,7 +70,6 @@ body {
 .about__item {}
 
 .about_btn.btn.btn--orange-border {}
-
 
 .products {}
 
@@ -93,7 +89,6 @@ body {
 
 .products__column.products__column--turmeric {}
 
-
 .story {}
 
 .story__wrapper {}
@@ -107,7 +102,6 @@ body {
 .story__picture {}
 
 .story__img {}
-
 
 .reviews {}
 
@@ -127,7 +121,6 @@ body {
 
 .reviews__btn.btn.btn-right {}
 
-
 .blog {}
 
 .blog__wrapper {}
@@ -146,7 +139,6 @@ body {
 
 .blog__link {}
 
-
 .instagram {}
 
 .instagram__titel.titel {}
@@ -158,7 +150,6 @@ body {
 .instagram__inner {}
 
 .instagram__img {}
-
 
 .footer {}
 
