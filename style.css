@@ -1,73 +1,222 @@
-body {
-    background-color: lightcoral;
+@font-face {
+    font-family: MuliExtraBold;
+    src: url(/assets/fonts/muli-extrabold.ttf);
 }
-.container {}
+@font-face {
+    font-family: MuliRegular;
+    src: url(/assets/fonts/muli-regular.ttf);
+}
+ul{
+    padding-inline-start: 0px;
+}
+.title {
+    font-family:'MuliExtraBold', sans-serif;
+}
+.text{
+    font-family: 'MuliRegular' ;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+.container {
+}
 
-.header {}
+.btn{
+    border-radius:35px;
+    -webkit-border-radius:35px;
+    -moz-border-radius:35px;
+    -ms-border-radius:35px;
+    -o-border-radius:35px;
+    font-size: 24px;
+    padding: 0 34px;
+    color: #fff;
+    border: none;
+    font-family: 'MuliExtraBold', sans-serif;
+}
+.btn:focus {
+    outline:auto;
+    font-size: 18px;
+}
 
-.header__top {}
+ /* хедар */
 
-.header__nav.nav {}
+.header {
+    background:url(/assets/images/header-bg-img.png) no-repeat;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    color: #fff; /*для чего? */
+    display: flex;
+    flex-direction: column;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 100px 100px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 420px;
+}
+.header__nav{}
 
-.nav__list {}
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
 
-.nav__item {}
+.nav__item {
+    margin-right: 35px;
+}
 
-.nav__link {}
+.nav__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family:'MuliExtraBold', sans-serif;
+    color: #fff;
+}
 
-.header__logo.logo {}
+/* .header__logo{}
+
+.logo {}
 
 .logo__link {}
 
 .logo__img {}
 
-.header__personal.personal {}
+.header__personal{
+}
 
-.personal__list {}
+.personal {} */
 
-.personal__item {}
+.personal__list {
+    list-style: none;
+    display: flex;
+    justify-content: ;
+    -webkit-border-radius:1;
+    -moz-border-radius:1;
+    -ms-border-radius:1;
+    -o-border-radius:1;
+}
 
-.personal__link {}
+.personal__item {
+    margin-right: 45px;
+}
+
+/* .personal__link {}
 
 .personal__img {}
 
-.header__social.social {}
+.header__social {}
 
-.social__list {}
+.social {} */
 
-.social__item {}
+.social__list {
+    list-style: none;
+    display: flex;
+}
 
-.social__link {}
+.social__item--top {
+    margin-right: 10px;
+}
 
-.social__img {}
+/* .social__link {}
 
-.header_btn.btn.btn--green {}
+.social__img {} */
 
-.smoothie {}
+.header_btn{
+    height: 70px;
+    width: 280px;
+    align-self: center;
+}
 
-.smoothie__titel.title {}
+.btn--green {
+    background-color:#0aa566
+}
 
-.smoothie_text {}
+/* смузи контект */
 
-.smoothie__wrapper {}
+.smoothie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.smoothie__features {}
+.smoothie__titel {
+    display: flex;
+    color:#f7ae3b;
+    font-size: 50px;
+}
 
-.smoothie__img {}
 
-.smoothie__subtitel {}
 
-.about {}
+.smoothie__text {
+    display: flex;
+    max-width: 920px;
+    text-align: center;
+    
+}
+
+.smoothie__wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 920px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.smoothie__features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:190px;
+    height:124px;
+    margin-top: 65px;
+}
+
+.smoothie__img {
+}
+
+.smoothie__subtitel {
+}
+
+.about {
+    background-color:#15846d;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
 
 .about__img. {}
 
-.about__structure {}
+.about__structure {
+    width: 615px;
+}
 
-.about__titel.title {}
+.about__titel {
+    font-size: 55px;
+    color: #fff;
+}
+.about__titel-green{
+    color: #cae941;
+}
+.title {}
 
-.about__list {}
+.about__list {
+    margin-left: 25px;
+}
 
-.about__item {}
+.about__item {
+    color: #fff;
+}
 
 .about_btn.btn.btn--orange-border {}
 
