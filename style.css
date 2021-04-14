@@ -169,7 +169,7 @@ body {
     justify-content: center;
     max-width: 920px;
     flex-wrap: wrap;
-    
+    margin-bottom: 160px;
     
 }
 
@@ -192,10 +192,14 @@ body {
     background-color:#15846d;
     display: flex;
     justify-content: center;
-    justify-content: space-around;
 }
-
-.about__img. {}
+.about__container{
+    display: flex;
+    justify-content: space-around;
+    width:1524px;
+    padding-top: 60px;
+}
+.about__img {}
 
 .about__structure {
     width: 615px;
@@ -211,18 +215,58 @@ body {
 .title {}
 
 .about__list {
-    margin-left: 25px;
+
 }
 
 .about__item {
     color: #fff;
+    list-style: none;
+    line-height: 1.8;
+    background: url(/assets/images/icon-marker.png) no-repeat  0px 4px;
+    padding-left: 30px;
 }
 
-.about_btn.btn.btn--orange-border {}
+.about_btn.btn.btn--orange-border {
+    margin-top: 50px;
+    padding: 14px 135px 14px 30px;
+    border: 2px solid #f8b231;
+    font-size: 24px;
+    background-color:#15846d;
+    color:#fff;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
 
-.products {}
+.products {
+    display: flex;
+}
 
-.products__column.products__column--chocolate {}
+.products__column {
+    width:480px;
+    height:720px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.products__column--chocolate {
+    background-color:#662e18
+}
+.products__column--vegan {
+    background-color:#18846d
+}
+
+.products__column--lemon {
+    background-color:#f8af3f
+
+}
+
+.products__column--turmeric {
+    background-color:#c5461b
+
+}
 
 .products__img {}
 
@@ -232,11 +276,7 @@ body {
 
 .products__btn.btn {}
 
-.products__column.products__column--vegan {}
 
-.products__column.products__column--lemon {}
-
-.products__column.products__column--turmeric {}
 
 .story {}
 
