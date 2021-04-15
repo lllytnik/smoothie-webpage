@@ -6,6 +6,14 @@
     font-family: MuliRegular;
     src: url(/assets/fonts/muli-regular.ttf);
 }
+@font-face {
+    font-family: Muli-Bold;
+    src: url(/assets/fonts/muli-bold.ttf);
+}
+@font-face {
+    font-family: Muli-Italic;
+    src: url(/assets/fonts/muli-italic.ttf);
+}
 ul{
     padding-inline-start: 0px;
 }
@@ -13,7 +21,7 @@ ul{
     font-family:'MuliExtraBold', sans-serif;
 }
 .text{
-    font-family: 'MuliRegular' ;
+    font-family: 'MuliRegular';
 }
 body {
     background-color: rgb(255, 255, 255);
@@ -21,7 +29,7 @@ body {
 .container {
 }
 
-.btn{
+.btn {
     border-radius:35px;
     -webkit-border-radius:35px;
     -moz-border-radius:35px;
@@ -212,7 +220,6 @@ body {
 .about__titel-green{
     color: #cae941;
 }
-.title {}
 
 .about__list {
 
@@ -270,11 +277,27 @@ body {
 
 .products__img {}
 
-.products__subtitel {}
+.products__subtitel {
+    font-family: 'Muli-Bold';
+    font-size: 24px;
+    color:#fff;
+    margin: 30px 0 0 0;
 
-.products__item {}
+}
 
-.products__btn.btn {}
+.products__item {
+    font-family: 'Muli-Italic';
+    font-size: 21px;
+    color:#fff;
+    margin: 10px 0 50px 0;
+}
+
+.products__btn {
+    padding: 15px 125px 15px 25px;
+    background-color: inherit;
+    border: 2px solid #fff;
+    font-size: 21px;
+}
 
 
 
@@ -282,9 +305,15 @@ body {
 
 .story__wrapper {}
 
-.story__titel.titel {}
+.story__titel {
+    font-size: 50px;
+    color:#f7ae3b;
+}
 
-.story__text.text {}
+.story__text {
+    font-size: 18px;
+    color:#1e1e1e;
+}
 
 .story__btn.btn {}
 
