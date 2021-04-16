@@ -301,35 +301,89 @@ body {
 
 
 
-.story {}
-
-.story__wrapper {}
+.story {
+    display: flex;
+    justify-content: center;
+}
+.story__container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1310px;
+    width:100%;
+    margin: 120px; 0 0 0;
+}
+.story__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-self: center;
+    width:580px;
+}
 
 .story__titel {
     font-size: 50px;
     color:#f7ae3b;
+    margin: 0;
 }
 
 .story__text {
     font-size: 18px;
     color:#1e1e1e;
+    margin: 40px 0 85px 0;
 }
 
-.story__btn.btn {}
+.story__btn {
+    background-color:#0aa566;
+    color:#fff;
+    padding: 20px 150px 20px 30px;
+}
 
 .story__picture {}
 
 .story__img {}
 
-.reviews {}
+.reviews {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:#68311b;
+}
+.reviews__container {
+    display: flex;
+    justify-content: center;
+    margin:120px 0 105px 0git;
+}
 
-.reviews__titel {}
+.reviews__titel {
+    font-size: 50px;
+    margin: 115px 0 0 0;
+    color:#b3742d;
 
-.reviews__wrapper {}
+}
+.reviews__titel--special{
+    color:#f2612d;
+}
 
-.reviews__desc {}
+.reviews__wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self:center;
+    
 
-.reviews__copy {}
+
+}
+
+.reviews__desc {
+    color:#fff;
+    font-size:18px;
+    width:480px;
+}
+
+.reviews__copy {
+    color:#b3742d;
+    font-size: 18px;
+}
 
 .reviews__userpic {}
 
