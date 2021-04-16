@@ -22,6 +22,8 @@ ul{
 }
 .text{
     font-family: 'MuliRegular';
+    line-height: 1.8;
+    
 }
 body {
     background-color: rgb(255, 255, 255);
@@ -157,7 +159,7 @@ body {
     align-items: center;
 }
 
-.smoothie__titel {
+.smoothie__title {
     display: flex;
     color:#f7ae3b;
     font-size: 50px;
@@ -193,7 +195,7 @@ body {
 .smoothie__img {
 }
 
-.smoothie__subtitel {
+.smoothie__subtitle {
 }
 
 .about {
@@ -213,11 +215,11 @@ body {
     width: 615px;
 }
 
-.about__titel {
+.about__title {
     font-size: 55px;
     color: #fff;
 }
-.about__titel-green{
+.about__title--green{
     color: #cae941;
 }
 
@@ -248,6 +250,8 @@ body {
 
 .products {
     display: flex;
+    overflow: scroll;
+    width: 100vw;
 }
 
 .products__column {
@@ -257,27 +261,29 @@ body {
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    flex: 0 0 auto;
 }
 .products__column--chocolate {
-    background-color:#662e18
+    background-color:#662e18;
+    
 }
 .products__column--vegan {
-    background-color:#18846d
+    background-color:#18846d;
 }
 
 .products__column--lemon {
-    background-color:#f8af3f
+    background-color:#f8af3f;
 
 }
 
 .products__column--turmeric {
-    background-color:#c5461b
+    background-color:#c5461b;
 
 }
 
 .products__img {}
 
-.products__subtitel {
+.products__subtitle {
     font-family: 'Muli-Bold';
     font-size: 24px;
     color:#fff;
@@ -320,7 +326,7 @@ body {
     width:580px;
 }
 
-.story__titel {
+.story__title {
     font-size: 50px;
     color:#f7ae3b;
     margin: 0;
@@ -351,41 +357,41 @@ body {
 .reviews__container {
     display: flex;
     justify-content: center;
-    margin:120px 0 105px 0git;
+    margin:120px 0 105px 0;
 }
-
-.reviews__titel {
-    font-size: 50px;
-    margin: 115px 0 0 0;
-    color:#b3742d;
-
-}
-.reviews__titel--special{
-    color:#f2612d;
-}
-
 .reviews__wrapper {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-self:center;
-    
-
-
 }
-
+.reviews__inner{
+    margin-bottom: 70px;
+}
+.reviews__title {
+    font-size: 50px;
+    margin: 115px 0 0 0;
+    color:#b3742d;
+}
+.reviews__title--special{
+    color:#f2612d;
+}
 .reviews__desc {
     color:#fff;
     font-size:18px;
     width:480px;
+    line-height: 1.8;
 }
 
 .reviews__copy {
     color:#b3742d;
     font-size: 18px;
+    margin-top: 10px;
 }
 
-.reviews__userpic {}
+.reviews__userpic {
+    margin-left: 50px;
+}
 
 .reviews__img {}
 
@@ -393,35 +399,95 @@ body {
 
 .reviews__btn.btn.btn-right {}
 
-.blog {}
 
-.blog__wrapper {}
 
-.blog__titel.titel {}
+.blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blog__container{
+    display: flex;
+    flex-direction: column;
+    margin: 90px 0 190px 0;
+}
+.blog__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog__title {
+    font-size: 50px;
+    color:#f7ae3b;
+    margin-bottom: 45px;
+}
 
 .blog__img {}
 
-.blog__excerpt {}
+.blog__excerpt {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width:645px;
+    border-top: #f7ae3b 10px solid;
+}
 
-.blog__subtitel {}
+.blog__subtitel {
+    font-family: 'MuliExtraBold', sans-serif;
+    font-size: 30px;
+    color:#f2612d;
+    padding: 0 0 0 60px;
+    margin: 50px 0 20px 0;
+}
 
-.blog__meta {}
+.blog__meta {
+    font-size: 16px;
+    font-family: 'MuliRegular';
+    color:#1e1e1e;
+    padding: 0 0 0 60px;
+    
+}
 
-.blog__text.text {}
+.blog__text {
+    font-size: 18px;
+    color:#1e1e1e;
+    padding: 0 0 0 120px;
+}
 
-.blog__link {}
+.blog__link {
+    text-decoration: none;
+    color:#1e1e1e
+}
 
-.instagram {}
+.instagram {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.instagram__container {
+    display: flex;
+    overflow: scroll;
+    width: 100vw;
+}
+.instagram__inner {
+    height: 388px;
+    width: 384px;
+    flex: 0 0 auto;
+}
 
-.instagram__titel.titel {}
+.instagram__title {
+    font-size: 24px;
+    color:#0aa566;
+    display: flex;
+}
 
-.instagram__titel-img {}
+.instagram__title-img {
+    margin-right: 10px;
+}
 
-.instagram__container {}
-
-.instagram__inner {}
-
-.instagram__img {}
+.instagram__img {
+}
 
 .footer {}
 
