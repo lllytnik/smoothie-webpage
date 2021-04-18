@@ -18,6 +18,10 @@
     src: url(/assets/fonts/muli-italic.ttf);
 }
 
+* {
+    margin: 0;
+}
+
 ul {
     padding-inline-start: 0px;
 }
@@ -29,26 +33,26 @@ ul {
 .text {
     font-family: 'MuliRegular';
     line-height: 1.8;
-
 }
 
 .btn {
+    padding: 0 34px;
     border-radius: 35px;
+    font-size: 24px;
+    font-family: 'MuliExtraBold', sans-serif;
+    border: none;
+    color: #fff;
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
     -ms-border-radius: 35px;
     -o-border-radius: 35px;
-    font-size: 24px;
-    padding: 0 34px;
-    color: #fff;
-    border: none;
-    font-family: 'MuliExtraBold', sans-serif;
 }
 
 .btn:focus {
     outline: auto;
     font-size: 18px;
 }
+
 
 /* HEADER */
 
@@ -65,17 +69,17 @@ ul {
 .header__top {
     display: flex;
     justify-content: space-between;
-    padding: 70px 100px 100px;
-    flex-wrap: wrap;
     align-items: center;
+    max-width: 1720px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 75px;
+
 }
 
 .header__wrapper {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
-    width: 420px;
 }
 
 /* 
@@ -100,14 +104,39 @@ ul {
     color: #fff;
 }
 
+.header__logo {
+    position: absolute;
+    left: 50%;
+    margin-top: 90px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 /* 
-.header__logo{}
 .logo {}
 .logo__link {}
 .logo__img {}
-.header__personal{}
+
 .personal {} 
 */
+.header__personal {
+    margin-right: 90px;
+}
+
+/* .header__personal::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 47px;
+    height: 2px;
+    right: 280px;
+    top: 90px;
+    background-image: url(/assets/images/icon-line_header.png);
+
+} */
 
 .personal__list {
     list-style: none;
@@ -142,12 +171,11 @@ ul {
 .header_btn {
     height: 70px;
     width: 280px;
-    align-self: center;
+    margin: 0 auto;
+    margin-top: 125px;
+    background-color: #0aa566;
 }
 
-.btn--green {
-    background-color: #0aa566
-}
 
 /* SMOOTHIE */
 
