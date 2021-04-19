@@ -131,19 +131,19 @@ ul {
 */
 .header__personal {
     margin-right: 90px;
+    position: relative;
 }
 
-/* .header__personal::after {
-    content: "";
-    display: inline-block;
+.header__personal::after {
+    content: '';
     position: absolute;
     width: 47px;
     height: 2px;
-    right: 280px;
-    top: 90px;
+    right: -45px;
+    top: 10px;
     background-image: url(/assets/images/icon-line_header.png);
 
-} */
+} 
 
 .personal__list {
     list-style: none;
@@ -178,9 +178,20 @@ ul {
 .header_btn {
     height: 70px;
     width: 280px;
+    position: relative;
     margin: 0 auto;
     margin-top: 125px;
+    padding-right: 124px;
     background-color: #0aa566;
+}
+.header_btn::after{
+    content: '';
+    position: absolute;
+    top: 27px;
+    right: 35px;
+    width: 33px;
+    height: 17px;
+    background-image: url('./assets/images/icon-arrow_btn.png')
 }
 
 
@@ -242,7 +253,7 @@ ul {
     justify-content: center;
 }
 
-.about__inner{
+.about__wrapper{
     display: flex;
 }
 
@@ -256,6 +267,7 @@ ul {
 
 .about__structure {
     padding-top: 90px;
+    max-width: 611px;
 
 }
 
@@ -266,7 +278,20 @@ ul {
 
 .about__title--green {
     color: #cae941;
+    position: relative;
 }
+.about__title--green::after {
+    content: '';
+    position: absolute;
+    top: 60px;
+    right: -15px;
+    width: 458px;
+    height: 15px;
+    background-image:url(/assets/images/icon-line_about.png);
+}
+.about__list {
+    margin-top: 30px;
+} 
 
 .about__item {
     padding-left: 30px;
@@ -280,6 +305,7 @@ ul {
 
     width: 460px;
     height: 60px;
+    position: relative;
     margin-top: 50px;
     text-align: start;
     font-size: 24px;
@@ -287,10 +313,19 @@ ul {
     background-color: #15846d;
     color: #fff;
 }
+.about__btn::after{
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 33px;
+    height: 17px;
+    background-image:url(/assets/images/icon-arrow_btn.png);
+}
 
 /* 
 
-.about__list {} 
+
 */
 
 /* PRODUCTS */
@@ -354,11 +389,21 @@ ul {
 .products__btn {
     width: 190px;
     height: 60px;
+    position: relative;
+    padding-right: 110px;
     margin: 50px 0 80px 0;
-
     font-size: 21px;
     background-color: inherit;
     border: 2px solid #fff;
+}
+.products__btn::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 33px;
+    height: 17px;
+    background-image:url(/assets/images/icon-arrow_products.png);
 }
 
 /* STORY */
