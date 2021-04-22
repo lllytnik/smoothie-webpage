@@ -188,7 +188,7 @@ ul {
     right: 35px;
     width: 33px;
     height: 17px;
-    background-image: url(/assets/images/icon-arrow_btn.png);
+    background-image: url(assets/images/icon-arrow_btn.png);
 }
 
 .header__btn:hover {
