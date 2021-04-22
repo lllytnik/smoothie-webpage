@@ -1,21 +1,21 @@
 @font-face {
     font-family: MuliExtraBold;
-    src: url(/assets/fonts/muli-extrabold.ttf);
+    src: url(assets/fonts/muli-extrabold.ttf);
 }
 
 @font-face {
     font-family: MuliRegular;
-    src: url(/assets/fonts/muli-regular.ttf);
+    src: url(assets/fonts/muli-regular.ttf);
 }
 
 @font-face {
     font-family: Muli-Bold;
-    src: url(/assets/fonts/muli-bold.ttf);
+    src: url(assets/fonts/muli-bold.ttf);
 }
 
 @font-face {
     font-family: Muli-Italic;
-    src: url(/assets/fonts/muli-italic.ttf);
+    src: url(assets/fonts/muli-italic.ttf);
 }
 
 * {
@@ -60,7 +60,7 @@ ul {
 /* HEADER */
 
 .header {
-    background: url(/assets/images/header-bg-img.png) no-repeat;
+    background: url(assets/images/header-bg-img.png) no-repeat;
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -137,7 +137,7 @@ ul {
     height: 2px;
     right: -45px;
     top: 10px;
-    background-image: url(/assets/images/icon-line_header.png);
+    background-image: url(assets/images/icon-line_header.png);
 
 }
 
@@ -181,14 +181,14 @@ ul {
     background-color: #0aa566;
 }
 
-.header_btn::after {
+.header__btn::after {
     content: '';
     position: absolute;
     top: 27px;
     right: 35px;
     width: 33px;
     height: 17px;
-    background-image: url('./assets/images/icon-arrow_btn.png')
+    background-image: url(/assets/images/icon-arrow_btn.png);
 }
 
 .header__btn:hover {
@@ -291,7 +291,7 @@ ul {
     right: -15px;
     width: 458px;
     height: 15px;
-    background-image: url(/assets/images/icon-line_about.png);
+    background-image: url(assets/images/icon-line_about.png);
 }
 
 .about__list {
@@ -302,7 +302,7 @@ ul {
     padding-left: 30px;
     list-style: none;
     line-height: 1.8;
-    background: url(/assets/images/icon-marker.png) no-repeat 0px 4px;
+    background: url(assets/images/icon-marker.png) no-repeat 0px 4px;
     color: #fff;
 }
 
@@ -325,7 +325,7 @@ ul {
     right: 30px;
     width: 33px;
     height: 17px;
-    background-image: url(/assets/images/icon-arrow_btn.png);
+    background-image: url(assets/images/icon-arrow_btn.png);
 }
 
 .about__btn:hover {
@@ -414,7 +414,7 @@ ul {
     right: 30px;
     width: 33px;
     height: 17px;
-    background-image: url(/assets/images/icon-arrow_products.png);
+    background-image: url(assets/images/icon-arrow_products.png);
 }
 
 /* STORY */
@@ -474,7 +474,7 @@ ul {
     right: 30px;
     width: 33px;
     height: 17px;
-    background-image: url(/assets/images/icon-arrow_btn.png);
+    background-image: url(assets/images/icon-arrow_btn.png);
 }
 .story__picture {
     position: relative;
@@ -486,7 +486,7 @@ ul {
     position: absolute;
     top: 22px;
     left: -170px;
-    background-image:url('/assets/images/story_stamp.png')
+    background-image:url(assets/images/story_stamp.png)
 
 }
 /* 
@@ -618,7 +618,7 @@ ul {
     position: absolute;
     top: -55px;
     left: -60px;
-    background-image: url(/assets/images/icon-line_blog.png);
+    background-image: url(assets/images/icon-line_blog.png);
 }
 
 
@@ -650,7 +650,7 @@ ul {
     right: -35px;
     width: 18px;
     height: 10px;
-    background-image: url(/assets/images/icon-arrow_blog.png);
+    background-image: url(assets/images/icon-arrow_blog.png);
 }
 
 /* 
@@ -699,7 +699,7 @@ ul {
     position: absolute;
     top: 340px;
     right: 20px;
-    background-image: url(/assets/images/instagram_icon-instagram.png);
+    background-image: url(assets/images/instagram_icon-instagram.png);
 }
 
 
@@ -794,7 +794,7 @@ ul {
     position: absolute;
     top: 51px;
     left: 20px;
-    background-image: url(/assets/images/footer-icon-mail.png);
+    background-image: url(assets/images/footer-icon-mail.png);
 
 }
 
@@ -832,7 +832,7 @@ ul {
     position: absolute;
     top: -15px;
     left: -62px;
-    background-image:url(/assets/images/footer_icon_arrow.png)
+    background-image:url(assets/images/footer_icon_arrow.png)
 }
 .feedback__list {
     list-style: none;
@@ -880,7 +880,7 @@ ul {
     position: absolute;
     right: -53px;
     top: -43px;
-    background-image:url('/assets/images/footer_botton-arrow.png')
+    background-image:url(assets/images/footer_botton-arrow.png)
 }
 .footer__btn:hover{
     cursor: pointer;
