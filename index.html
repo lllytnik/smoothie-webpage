@@ -90,7 +90,7 @@
     </header>
     <!---->
     <section class="smoothie">
-        <div class="smoothie__container">
+        <div class="container">
 
             <h2 class="smoothie__title title">What are these smoothies?</h2>
             <p class="smoothie__text text"> A smoothie is a drink made from pureed raw fruit, vegetables, and sometimes
@@ -168,38 +168,40 @@
                     <button class="about__btn btn">About Organic Smoothie</button>
                 </div>
             </div>
-            
         </div>
     </section>
     <!---->
     <section class="products">
-        <div class="products__column products__column--chocolate">
-            <img class="products__img" src="assets/images/product-img.png" alt="">
-            <h3 class="products__subtitle">Dark Chocolate Smoothie</h3>
-            <span class="products__item" class="">100 ml</span>
-            <button class="products__btn btn" class="">Buy</button>
+        <div class="products__wrapper">
+            <div class="products__column products__column--chocolate">
+                <img class="products__img" src="assets/images/product-img.png" alt="">
+                <h3 class="products__subtitle">Dark Chocolate Smoothie</h3>
+                <span class="products__item" class="">100 ml</span>
+                <button class="products__btn btn" class="">Buy</button>
+            </div>
+
+            <div class="products__column products__column--vegan">
+                <img class="products__img" src="assets/images/product-img2.png" alt="">
+                <h3 class="products__subtitle">Vegan Lettuce Smoothie</h3>
+                <span class="products__item">100 ml</span>
+                <button class="products__btn btn">Buy</button>
+            </div>
+
+            <div class="products__column products__column--lemon">
+                <img class="products__img" src="assets/images/product-img3.png" alt="">
+                <h3 class="products__subtitle">Lemon Ginger Smoothie</h3>
+                <span class="products__item">100 ml</span>
+                <button class="products__btn btn">Buy</button>
+            </div>
+
+            <div class="products__column products__column--turmeric">
+                <img class="products__img" src="assets/images/product-img4.png" alt="">
+                <h3 class="products__subtitle">Turmeric Garlic Smoothie </h3>
+                <span class="products__item">100 ml</span>
+                <button class="products__btn btn">Buy</button>
+            </div>
         </div>
 
-        <div class="products__column products__column--vegan">
-            <img class="products__img" src="assets/images/product-img2.png" alt="">
-            <h3 class="products__subtitle">Vegan Lettuce Smoothie</h3>
-            <span class="products__item">100 ml</span>
-            <button class="products__btn btn">Buy</button>
-        </div>
-
-        <div class="products__column products__column--lemon">
-            <img class="products__img" src="assets/images/product-img3.png" alt="">
-            <h3 class="products__subtitle">Lemon Ginger Smoothie</h3>
-            <span class="products__item">100 ml</span>
-            <button class="products__btn btn">Buy</button>
-        </div>
-
-        <div class="products__column products__column--turmeric">
-            <img class="products__img" src="assets/images/product-img4.png" alt="">
-            <h3 class="products__subtitle">Turmeric Garlic Smoothie </h3>
-            <span class="products__item">100 ml</span>
-            <button class="products__btn btn">Buy</button>
-        </div>
     </section>
     <!---->
     <section class="story">
@@ -221,69 +223,77 @@
     </section>
     <!---->
     <section class="reviews">
-        <h2 class="reviews__title title">Why clients <span class="reviews__titel--special">Love</span> us?</h2>
-        <div class="reviews__container">
-            <div class="reviews__wrapper">
-                <q class="reviews__desc">Smoothie is great. I don't know what else to say. I will let my mum know about
-                    this, she could really
-                    make use of Smoothie! Smoothie saved my business.</q>
-                <cite class="reviews__copy">- from Santa Monica, CA</cite>
+        <div class="reviews__wrapper">
+            <h2 class="reviews__title title">Why clients <span class="reviews__titel--special">Love</span> us?</h2>
+            <div class="reviews__inner">
+                <div class="reviews__desc">
+                    <q class="reviews__text">Smoothie is great. I don't know what else to say. I will let my mum know
+                        about
+                        this, she could really
+                        make use of Smoothie! Smoothie saved my business.</q>
+                    <cite class="reviews__copy">- from Santa Monica, CA</cite>
+                </div>
+                <div class="reviews__userpic">
+                    <img class="reviews__img" src="assets/images/review-img.png" alt="">
+                </div>
             </div>
-            <div class="reviews__userpic">
-                <img class="reviews__img" src="assets/images/review-img.png" alt="">
+
+            <div class="reviews__row-btn">
+                <button class="reviews__btn reviews__btn--left">
+                    <img class="review__btn-img" src="assets/images/btn_arrow_left_reviews.png" alt="">
+                </button>
+                <button class="reviews__btn reviews__btn--right">
+                    <img class="review__btn-img" src="assets/images/btn_arrow_right_reviews.png" alt="">
+                </button>
             </div>
         </div>
 
-        <div class="reviews__inner">
-            <button class="reviews__btn reviews__btn--left">
-                <img class="review__btn-img" src="assets/images/btn_arrow_left_reviews.png" alt="">
-            </button>
-            <button class="reviews__btn reviews__btn--right">
-                <img class="review__btn-img" src="assets/images/btn_arrow_right_reviews.png" alt="">
-            </button>
-        </div>
     </section>
     <!---->
     <section class="blog">
-        <div class="blog__container">
+        <div class="blog__wrapper">
+            <div class="blog__wrap-img">
             <h2 class="blog__title titel">Our blog</h2>
-            <div class="blog__wrapper">
-                <img class="blog__img" src="assets/images/blog-img.png" alt="">
-                <article class="blog__excerpt">
-                    <h3 class="blog__subtitle">ASAFOETIDA - THE NEXT TURMERIC?</h3>
-                    <time class="blog__meta" datetime="jun 16. 2020">jun 16. 2020</time>
-                    <p class="blog__text text">If the fruit ingredients and the green vegetable ingredients are both
-                        juiced
-                        ahead of time, the mixed
-                        juice doesn't even have to be blended like a smoothie, i.e. a green juice or anything...
-                        <a class="blog__link" href="#">Read More</a>
-                    </p>
-                </article>
+            <img class="blog__img" src="assets/images/blog-img.png" alt="">
             </div>
-        </div>
+            
+            <article class="blog__excerpt">
+                <h3 class="blog__subtitle">ASAFOETIDA - THE NEXT TURMERIC?</h3>
+                <time class="blog__meta" datetime="jun 16. 2020">jun 16. 2020</time>
+                <p class="blog__text text">If the fruit ingredients and the green vegetable ingredients are both
+                    juiced
+                    ahead of time, the mixed
+                    juice doesn't even have to be blended like a smoothie, i.e. a green juice or anything...
+                    <a class="blog__link" href="#">Read More</a>
+                </p>
+            </article>
+            </div>
     </section>
     <!---->
     <section class="instagram">
-        <h2 class="instagram__title title">
+        <div class="instagram__wrapper">
+          <h2 class="instagram__title title">
             <img class="instagram__title-img" src="assets/images/icon-inst.png" alt="">ashasuperfoods
         </h2>
         <div class="instagram__container">
-            <div class="instagram__inner">
+            <div class="instagram__wrap-img">
                 <img class="instagram__img" src="assets/images/instagram-slaid.png" alt="">
             </div>
-            <div class="instagram__inner">
+            <div class="instagram__wrap-img">
                 <img class="instagram__img" src="assets/images/instagram-slaid2.png" alt="">
             </div>
-            <div class="instagram__inner">
+            <div class="instagram__wrap-img">
                 <img class="instagram__img" src="assets/images/instagram-slaid3.png" alt="">
             </div>
-            <div class="instagram__inner">
+            <div class="instagram__wrap-img">
                 <img class="instagram__img" src="assets/images/instagram-slaid4.png" alt="">
             </div>
-            <div class="instagram__inner">
+            <div class="instagram__wrap-img">
                 <img class="instagram__img" src="assets/images/instagram-slaid5.png" alt="">
             </div>
+        </div>  
         </div>
+        
     </section>
     <!---->
     <footer class="footer">
@@ -337,7 +347,7 @@
                     </div>
 
                     <div class="payment__inner">
-                        <img class="payment__img" src="assets/images/payment-shopify Pay.png" alt="">
+                        <img class="payment__img" src="assets/images/payment-shopify_pay.png" alt="">
                     </div>
 
                     <div class="payment__inner">
