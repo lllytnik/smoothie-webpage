@@ -1,0 +1,151 @@
+@media screen and (max-width:992px) {
+    .header__navigation {
+        display: none;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding-top: 120px;
+        background-color: #0aa566;
+        z-index: 111;
+    }
+    .header__wrapper {
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .header__burger-btn {
+        display: block;
+    }
+    .header__nav {
+        margin-top: 100px;
+    }
+    .nav__list {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 400px;
+    }
+    .nav__item {
+        margin: 0;
+    }
+    .personal__item {
+        margin-right: 40px;
+    }
+
+    .about__wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 70px;
+    }
+
+    .about__wrap-img {
+        transform: none;
+        text-align: center;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+    .about__img {
+        max-width: 80%;
+    }
+
+
+    .story {
+        padding: 60px 0 60px 0;
+    }
+
+    .story__container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .story__picture::before {
+        top: 480px;
+        left: 280px;
+    }
+
+
+    .reviews__inner {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .reviews__userpic {
+        margin: 20px 0 0 0px;
+    }
+
+    .reviews__row-btn {
+        margin-top: 50px;
+    }
+
+    .reviews__inner::after {
+        display: none;
+    }
+
+    .reviews__desc::before {
+        display: none;
+    }
+
+    .blog {
+        padding-bottom: 90px;
+    }
+
+    .blog__wrapper {
+        flex-direction: column;
+    }
+
+    .blog__excerpt {
+        align-items: center;
+    }
+
+    .blog__subtitle::after {
+        background-size: 555px 12px;
+        background-repeat: no-repeat;
+        top: -29px;
+        left: 0;
+    }
+
+    .blog__meta {
+        margin-left: 0;
+    }
+
+    .blog__subtitle {
+        margin-left: 0px;
+    }
+
+    .blog__text {
+        margin: 20px 0 0 40px;
+    }
+
+    .footer__wrapper {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .footer__logo {
+        margin-top: 10px;
+    }
+
+    .footer__info {
+        margin-top: 30px;
+    }
+
+    .footer__payment {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .footer__feedback {
+        margin-top: 30px;
+    }
+
+    .feedback__title {
+        text-align: center;
+    }
+
+}
