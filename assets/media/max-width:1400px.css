@@ -1,0 +1,31 @@
+@media screen and (max-width:1400px) {
+
+    .header__navigation {
+        justify-content: space-around;
+        margin-top: 80px;
+    }
+
+    .header__btn {
+        margin-top: 70px;
+    }
+
+
+    .about__wrap-img {
+        transform: translate(70px, 80px);
+        -webkit-transform: translate(70px, 80px);
+        -moz-transform: translate(70px, 80px);
+        -ms-transform: translate(70px, 80px);
+        -o-transform: translate(70px, 80px);
+    }
+
+    .about__img {
+        max-width: 80%;
+    }
+
+    .blog__subtitle::after {
+        width: 325px;
+        left: -85px;
+        background-size: 625px 12px;
+        background-repeat: no-repeat;
+    }
+}

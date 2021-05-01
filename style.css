@@ -296,7 +296,7 @@ ul {
 
 .about__wrapper {
     display: flex;
-    
+
 }
 
 .about__wrap-img {
@@ -467,9 +467,8 @@ ul {
 .story__container {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
     max-width: 1310px;
-    width: 100%;
-
 }
 
 .story__wrapper {
@@ -975,4 +974,3 @@ ul {
 
 
 */
-
