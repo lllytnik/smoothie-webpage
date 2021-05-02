@@ -134,6 +134,7 @@ ul {
     border: 0;
     background: transparent;
     z-index: 111;
+    cursor: pointer;
 }
 
 .header__burger-img {
