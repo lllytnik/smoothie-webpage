@@ -1,0 +1,53 @@
+@media screen and (max-width:360px) {
+    .header__wrapper{
+        flex-direction: column;
+        width: 100%;
+    }
+    .header__personal {
+        max-width:156px;
+        width: 100%;
+        margin-right: 0px;
+    }
+    .personal__list{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .personal__item {
+        margin-right: 0px;
+    }
+    .header__personal::after {
+        right: 53px;
+        top: 51px;
+    }
+
+    .header__social{
+        margin-top: 50px;
+        width: 126px;
+    }
+    .social__list{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .social__item--top{
+        margin-right: 0px;
+    }
+    .about__btn {
+        width: 340px;
+        font-size: 20px;
+        padding: 0 30px;
+    }
+    .reviews__text{
+        max-width:340px;
+        text-align: center;
+    }
+    .story__text{
+        max-width:340px;
+        text-align: center;
+    }
+    .story__wrapper {
+        max-width: 360px;
+        align-items: center;
+    }
+}

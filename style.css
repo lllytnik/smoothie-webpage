@@ -74,10 +74,11 @@ ul {
 
 .header__top {
     display: flex;
-    justify-content: space-between;
     position: relative;
     padding-top: 75px;
-
+    max-width:1712px;
+    width: 100%;
+    margin: 0 auto;
 
 }
 
