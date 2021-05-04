@@ -21,6 +21,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-size: 10px;
 }
 
 ul {
@@ -57,9 +58,6 @@ ul {
     -ms-border-radius: 35px;
     -o-border-radius: 35px;
 }
-
-
-
 /* HEADER */
 
 .header {
@@ -140,6 +138,7 @@ ul {
 
 .header__burger-img {
     width: 50px;
+    border: 2px solid #f8b231;
 
 }
 
@@ -188,7 +187,14 @@ ul {
 }
 
 .social__item--top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #fff;
 }
 
 /* 
@@ -230,7 +236,7 @@ ul {
     margin-bottom: 35px;
     text-align: center;
     color: #f7ae3b;
-    font-size: 50px;
+    font-size: 5rem;
 }
 
 .smoothie__text {
@@ -316,13 +322,14 @@ ul {
 }
 
 .about__title {
-    font-size: 55px;
+    font-size: 5.5rem;
     color: #fff;
 }
 
 .about__title--green {
-    color: #cae941;
     position: relative;
+    font-size: 5.5rem;
+    color: #cae941;
 }
 
 .about__title--green::after {
@@ -344,10 +351,14 @@ ul {
     padding-left: 30px;
     list-style: none;
     line-height: 1.8;
-    background: url(assets/images/icon-marker.png) no-repeat 0px 4px;
+    font-size: 2.1rem;
+    background: url(assets/images/icon-marker.png) no-repeat 0px 9px;
     color: #fff;
 }
-
+.about__item--special{
+    font-weight: bold;
+    font-size: 2.1rem;
+}
 
 .about__btn {
     width: 460px;
@@ -424,14 +435,14 @@ ul {
 .products__subtitle {
     margin-top: 30px;
     font-family: 'Muli-Bold';
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #fff;
 }
 
 .products__item {
     margin-top: 10px;
     font-family: 'Muli-Italic';
-    font-size: 21px;
+    font-size: 2.1rem;
     color: #fff;
 }
 
@@ -441,7 +452,7 @@ ul {
     position: relative;
     padding-right: 110px;
     margin-top: 50px;
-    font-size: 21px;
+    font-size: 2.1rem;
     background-color: inherit;
     border: 2px solid #fff;
 }
@@ -482,13 +493,13 @@ ul {
 }
 
 .story__title {
-    font-size: 50px;
+    font-size: 5rem;
     color: #f7ae3b;
     margin: 0;
 }
 
 .story__text {
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #1e1e1e;
     margin: 40px 0 85px 0;
 }
@@ -593,11 +604,12 @@ ul {
 }
 
 .reviews__title {
-    font-size: 50px;
+    font-size: 5rem;
     color: #b3742d;
 }
 
 .reviews__titel--special {
+    font-size: 5rem;
     color: #f2612d;
     text-transform: uppercase;
 }
@@ -605,14 +617,14 @@ ul {
 .reviews__text {
     color: #fff;
     font-family: 'MuliRegular';
-    font-size: 18px;
+    font-size: 1.8rem;
     width: 457px;
     line-height: 1.8;
 }
 
 .reviews__copy {
     color: #b3742d;
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-top: 10px;
 }
 
@@ -660,7 +672,7 @@ ul {
 }
 
 .blog__title {
-    font-size: 50px;
+    font-size: 5rem;
     color: #f7ae3b;
 }
 
@@ -679,7 +691,7 @@ ul {
 
 .blog__subtitle {
     font-family: 'MuliExtraBold', sans-serif;
-    font-size: 29px;
+    font-size: 2.9rem;
     color: #f2612d;
     margin: 50px 0 0 0px;
     position: relative;
@@ -699,23 +711,24 @@ ul {
 
 
 .blog__meta {
-    font-size: 16px;
+    margin-top: 20px;
+    font-size: 1.6rem;
     font-family: 'MuliRegular';
     color: #1e1e1e;
-    margin-top: 20px;
 }
 
 .blog__text {
-    font-size: 18px;
-    color: #3e3e3e;
     margin: 20px 0 0 58px;
+    font-size: 1.8rem;
+    color: #3e3e3e;
 }
 
-.blog__link {
+.blog__link { 
+    position: relative;
     text-decoration: none;
+    font-size: 1.8rem;
     font-family: 'Muli-Bold';
     color: #1e1e1e;
-    position: relative;
 }
 
 .blog__link::after {
@@ -755,7 +768,7 @@ ul {
 }
 
 .instagram__title {
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #0aa566;
     display: flex;
 }
@@ -800,14 +813,14 @@ ul {
 */
 
 .info__title {
-    font-size: 26px;
+    font-size: 2.6rem;
     color: #fff;
 
 }
 
 .info__list {
     font-family: 'Muli-Bold';
-    font-size: 18px;
+    
     line-height: 1.8;
     list-style: none;
 }
@@ -815,6 +828,7 @@ ul {
 .info__link {
     text-decoration: none;
     color: #6d450c;
+    font-size: 1.8rem;
 
 }
 
@@ -835,11 +849,12 @@ ul {
 }
 
 .payment__inner {
+    align-self: center;
     margin: 10px 15px 0 0;
 }
 
 .payment__title {
-    font-size: 26px;
+    font-size: 2.6rem;
     color: #fff;
 }
 
@@ -856,7 +871,7 @@ ul {
 
 .feedback__form {
     font-family: 'Muli-Bold';
-    font-size: 17px;
+    font-size: 1.7rem;
     color: #6d450c;
     position: relative;
 }
@@ -882,16 +897,20 @@ ul {
     -o-border-radius: 35px;
 }
 
-.feedback__title {
-    font-size: 26px;
-    color: #fff;
+.feedback__btn{
+    margin: 4px 40px 0 0;
+    outline: none;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    font-family: 'MuliExtraBold', sans-serif;
+    font-size: 1.8rem;
+    color: #6d450c;
 }
 
-.feedback__subtitel {
-    font-family: 'MuliExtraBold', sans-serif;
-    font-size: 18px;
-    color: #6d450c;
-    margin: 4px 40px 0 0;
+.feedback__title {
+    font-size: 2.6rem;
+    color: #fff;
 }
 
 .feedback__social {
@@ -915,15 +934,20 @@ ul {
     display: flex;
 }
 
-/* 
-.feedback__item {}
+
+.feedback__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #fff;
+}/* 
 .feedback__link {}
 .feedback__list-item {} 
 */
-
-.feedback__img {
-    margin-right: 23px;
-}
 
 .footer__bottom {
     margin-top: 120px;
@@ -937,7 +961,7 @@ ul {
     margin: 0 auto;
     color: #af8a82;
     font-family: MuliRegular;
-    font-size: 13px;
+    font-size: 1.3rem;
     padding: 20px 20px;
 }
 
@@ -947,7 +971,7 @@ ul {
     border: 0;
     background: transparent;
     font-family: 'Muli-Bold';
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #fff;
 }
 
